@@ -3,4 +3,5 @@ export type RootStackParamList = {
   Teams: undefined;
   Games: undefined;
   Analysis: undefined;
+  TeamDetails: { teamId: string };
 }; 
